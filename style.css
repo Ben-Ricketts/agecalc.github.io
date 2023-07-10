@@ -1,0 +1,108 @@
+.day,
+.month,
+.year {
+  color: gray;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-style: italic;
+  padding: 50px;
+  font-weight: bolder;
+}
+
+.dates-worded {
+  padding: 50px;
+  padding-top: 200px;
+  padding-left: 200px;
+  padding-right: 900px;
+}
+
+.input-fields {
+  padding-left: 200px;
+  padding-top: 20px;
+}
+
+.input-placeholders {
+  padding: 50px;
+  padding-left: 200px;
+  padding-top: 20px;
+}
+
+.years,
+.months,
+.days {
+  font-size: 125px;
+  font-family: "poppins", sans-serif;
+}
+
+#years,
+#month,
+#days {
+  color: rgb(136, 49, 136);
+  font-weight: 600;
+}
+
+.inputs {
+  font-family: sans-serif;
+  font-style: italic;
+  padding-left: 200px;
+  position: absolute;
+  top: 330px;
+  font-size: 12px;
+}
+.req1,
+.req2,
+.req3 {
+  padding-right: 75px;
+  color: red;
+}
+
+.hidden {
+  display: none;
+}
+
+.day-req {
+  font-family: sans-serif;
+  padding-right: 110px;
+  padding-left: 200px;
+  color: red;
+  font-size: 12px;
+}
+.month-req {
+  font-family: sans-serif;
+  padding-right: 100px;
+  color: red;
+  font-size: 12px;
+}
+
+.year-req {
+  font-family: sans-serif;
+  padding-right: 0px;
+  color: red;
+  font-size: 12px;
+}
+
+.day-hidden,
+.year-hidden,
+.month-hidden {
+  visibility: hidden;
+}
+
+.clock-img {
+  position: absolute;
+  top: 0;
+  padding-top: 150px;
+  left: 1000px;
+  z-index: -1;
+  width: 700px;
+}
+
+.btn {
+  margin-top: 15px;
+  margin-left: 420px;
+  border-radius: 20px;
+  text-decoration: solid;
+}
+
+.arrow-down {
+  height: 60px;
+}

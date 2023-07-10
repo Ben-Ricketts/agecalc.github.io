@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <title>Frontend Mentor | Age calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dates-worded">
+      <span class="day">Day</span>
+      <span class="month">Month</span>
+      <span class="year">Year</span>
+    </div>
+    <div class="input-placeholders">
+      <input id="dd" placeholder="DD" />
+      <input id="mm" placeholder="MM" />
+      <input id="yyyy" placeholder="YYYY" />
+    </div>
+    <div class="inputs hidden">
+      <span class="req1"> This field is required</span
+      ><span class="req2">This field is required</span>
+      <span class="req3">This field is required</span>
+    </div>
+    <div class="inputs-error ">
+      <span class="day-req day-hidden">Day too high</span>
+      <span class="month-req month-hidden">Month too high</span>
+      <span class="year-req year-hidden">Year must be in the past<span>
+
+      </div>
+      <div><button class="btn"><img src="img/arrowpointdown.jpg" class="arrow-down" alt="picture of an arrow pointing down"/> </button></div>
+    <div class="input-fields">
+      <div class="years"><span id="years"> --</span> Years</div>
+      <div class="months"><span id="month"> -- </span> Months</div>
+      <div class="days"><span id="days"> --</span> Days</div>
+    </div>
+    <img src="img/space clock.jpg" class="clock-img" alt="image of a clock with a galaxy in the background" />
+    Challenge by
+
+    <footer class="bottom-banner">
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Ben</a>.
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
